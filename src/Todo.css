@@ -1,0 +1,19 @@
+.Todo {
+    width: 35vh;
+    height: 15vh;
+    background-color: beige;
+    border-style: solid;
+    margin:2vh;
+    font-size: small;
+}
+
+.TodoItem 
+{
+    display:flex;
+    flex-direction: row;
+}
+
+.deleteButton{
+    height:30px;
+    width: 30px;
+}

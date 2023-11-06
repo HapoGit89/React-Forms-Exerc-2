@@ -1,0 +1,6 @@
+.TodoOut{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    flex-wrap: wrap;
+}
