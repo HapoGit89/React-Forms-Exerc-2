@@ -28,17 +28,19 @@ function NewTodoForm({addTodo}) {
                 <label className="FormLabel" htmlFor="title">Title:</label>
                 <input 
                     name="title" 
+                    data-testid="title"
                     id="title"
                     value={formData.title || ""}
                     onChange={handleChange}/>
                 <label className="FormLabel" htmlFor="text">Text:</label>
                 <input 
                     name="text" 
+                    data-testid="text"
                     id="text"
                     value={formData.text || ""}
                     onChange={handleChange} />
           
-                <button>Add!</button>
+                <button data-testid="submit">Add!</button>
 </form>
       </div>
     );
